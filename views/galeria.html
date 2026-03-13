@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - La tienda del perfume</title>
+    <link rel="stylesheet" href="../css/galeria.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>La tienda del perfume</h1>
+        <p>Galería de imágenes</p>
+    </header>
+
+    <nav>
+        <a href="/index.html">Inicio</a>
+        <a href="/views/galeria.html">Galería</a>
+        <a href="/views/presupuesto.html">Presupuesto</a>
+        <a href="/views/contacto.html">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <h1>Galería de Proyectos</h1>
+        
+        <div class="filtros">
+            <button class="filtro-btn active" data-categoria="todos">perfumes arabes</button>
+            <button class="filtro-btn" data-categoria="web">Fragancias con feromonas</button>
+            <button class="filtro-btn" data-categoria="app">Lociones de baño</button>
+            <button class="filtro-btn" data-categoria="diseno">Cintas perfumadas</button>
+        </div>
+
+        <div class="galeria" id="galeria">
+            <!-- Las imágenes se cargarán dinámicamente -->
+        </div>
+    </div>
+
+    <!-- Modal para ver imágenes ampliadas -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/galeria.js"></script>
+</body>
+</html>

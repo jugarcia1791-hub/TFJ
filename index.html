@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>La tienda del perfume</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>La tienda del perfume</h1>
+        <p>Tu mejor opción en servicios digitales</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="/views/galeria.html">Galería</a>
+        <a href="/views/presupuesto.html">Presupuesto</a>
+        <a href="/views/contacto.html">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>Bienvenidos</h2>
+            <p>¡Bienvenido a nuestra tienda de perfumes! Descubre una amplia selección de fragancias para hombres y mujeres, todas de la más alta calidad.</p>
+        </section>
+
+        <section>
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-grid" id="servicios">
+                <!-- Los servicios se cargarán dinámicamente -->
+            </div>
+        </section>
+
+        <section>
+            <h2>Últimas Noticias</h2>
+            <div class="noticias-container" id="noticias-container">
+                <!-- Las noticias se cargarán desde el JSON -->
+            </div>
+        </section>
+
+        <section>
+            <h2>Por qué elegirnos</h2>
+            <div class="servicios-grid">
+                <div class="servicio-item">
+                    <i>🏆</i>
+                    <h3>Experiencia</h3>
+                    <p>Más de 10 años en el mercado de los perfumes</p>
+                </div>
+                <div class="servicio-item">
+                    <i>🆕</i>
+                    <h3>Innovación</h3>
+                    <p>Ofrecemos las últimas tendencias en perfumes</p>
+                </div>
+                <div class="servicio-item">
+                    <i>💡</i>
+                    <h3>Creatividad</h3>
+                    <p>Diseñamos fragancias únicas y memorables</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 La tienda del perfume. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
