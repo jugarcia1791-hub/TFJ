@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La tienda del perfume</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
 </head>
-<body>
+<body class="index-page">
+    
     <header>
         <h1>La tienda del perfume</h1>
-        <p>Tu mejor opción en servicios digitales</p>
+        
+        <p>Tu mejor opción en perfumes y fragancias</p>
     </header>
+    
 
     <nav>
-        <a href="index.html">Inicio</a>
+        <a href="/index.html">Inicio</a>
         <a href="/views/galeria.html">Galería</a>
         <a href="/views/presupuesto.html">Presupuesto</a>
         <a href="/views/contacto.html">Contacto</a>
@@ -25,15 +29,10 @@
             <p>¡Bienvenido a nuestra tienda de perfumes! Descubre una amplia selección de fragancias para hombres y mujeres, todas de la más alta calidad.</p>
         </section>
 
-        <section>
-            <h2>Nuestros Servicios</h2>
-            <div class="servicios-grid" id="servicios">
-                <!-- Los servicios se cargarán dinámicamente -->
-            </div>
-        </section>
+       
 
         <section>
-            <h2>Últimas Noticias</h2>
+            <h2>Los perfumes mas exoticos y buscados del mercado</h2>
             <div class="noticias-container" id="noticias-container">
                 <!-- Las noticias se cargarán desde el JSON -->
             </div>
@@ -43,17 +42,17 @@
             <h2>Por qué elegirnos</h2>
             <div class="servicios-grid">
                 <div class="servicio-item">
-                    <i>🏆</i>
+                    <i></i>
                     <h3>Experiencia</h3>
                     <p>Más de 10 años en el mercado de los perfumes</p>
                 </div>
                 <div class="servicio-item">
-                    <i>🆕</i>
+                    <i></i>
                     <h3>Innovación</h3>
                     <p>Ofrecemos las últimas tendencias en perfumes</p>
                 </div>
                 <div class="servicio-item">
-                    <i>💡</i>
+                    <i></i>
                     <h3>Creatividad</h3>
                     <p>Diseñamos fragancias únicas y memorables</p>
                 </div>
@@ -62,9 +61,37 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 La tienda del perfume. Todos los derechos reservados.</p>
+    
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>La tienda del perfume</h3>
+                <p>La mejor tienda de perfumes</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i>Clle leganes 28</p>
+                <p><i class="fas fa-phone"></i>+34 912 345 678</p>
+                <p><i class="fas fa-envelope"></i> latiendadelperfume@gmail.com</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="https://facebook.com" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                    
+                    <a href="https://youtube.com" class="social-link" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        
+            
     </footer>
 
-    <script src="js/main.js"></script>
+<script src="js/main.js"></script>
+    <script src="js/navbar.js"></script>
 </body>
 </html>

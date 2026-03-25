@@ -2,24 +2,24 @@ document.addEventListener('DOMContentLoaded', function() {
     // Datos de noticias (simulando un archivo JSON externo)
     const noticiasData = [
         {
-            titulo: "Nueva actualización de servicios",
-            fecha: "2024-01-15",
-            contenido: "Hemos mejorado nuestros servicios con las últimas tecnologías del mercado."
+            titulo: "Nuevos perfumes y fragancias desde marruecos",
+            fecha: "2026-01-15",
+            contenido: "Hemos mejorado nuestros servicios con las últimas fragancias del mercado."
         },
         {
-            titulo: "Lanzamiento de nueva plataforma",
-            fecha: "2024-01-10",
-            contenido: "Presentamos nuestra nueva plataforma digital con funcionalidades avanzadas."
+            titulo: "Lanzamiento de nueva plataforma digital pra hacer tus pedidos",
+            fecha: "2026-01-10",
+            contenido: "Presentamos nuestra nueva plataforma digital con funcionalidades para hacer pedidos y domicilios."
         },
         {
             titulo: "Reconocimiento internacional",
-            fecha: "2024-01-05",
-            contenido: "Recibimos el premio a la innovación tecnológica 2024."
+            fecha: "2026-01-05",
+            contenido: "Recibimos reconocimiento por varias franquicias a lo largo de europa."
         },
         {
-            titulo: "Nuevos miembros en el equipo",
-            fecha: "2024-01-01",
-            contenido: "Damos la bienvenida a nuevos talentos que fortalecerán nuestro equipo."
+            titulo: "Nueva innovacion en perfumeria",
+            fecha: "2026-01-01",
+            contenido: "Damos la bienvenida a nuevos metodos  que renuevan el mercado de la perfumeria."
         }
     ];
 
@@ -44,23 +44,9 @@ document.addEventListener('DOMContentLoaded', function() {
         noticiasContainer.appendChild(noticiaCard);
     });
 
-    // Cargar servicios
-    const serviciosContainer = document.getElementById('servicios');
-    const servicios = [
-        { icono: '💻', titulo: 'Desarrollo Web', descripcion: 'Sitios web modernos y responsivos' },
-        { icono: '📱', titulo: 'Apps Móviles', descripcion: 'Aplicaciones nativas y multiplataforma' },
-        { icono: '🎨', titulo: 'Diseño UX/UI', descripcion: 'Experiencias de usuario únicas' },
-        { icono: '📊', titulo: 'Marketing Digital', descripcion: 'Estrategias para hacer crecer tu negocio' }
-    ];
-
-    servicios.forEach(servicio => {
-        const servicioDiv = document.createElement('div');
-        servicioDiv.className = 'servicio-item';
-        servicioDiv.innerHTML = `
-            <i>${servicio.icono}</i>
-            <h3>${servicio.titulo}</h3>
-            <p>${servicio.descripcion}</p>
-        `;
-        serviciosContainer.appendChild(servicioDiv);
-    });
+    
+    
+        
+        
+    
 });
