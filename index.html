@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La tienda del perfume</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/galeria.css">
     <link rel="stylesheet" href="css/navbar.css">
 </head>
 <body class="index-page">
@@ -17,10 +18,7 @@
     
 
     <nav>
-        <a href="/index.html">Inicio</a>
-        <a href="/views/galeria.html">Galería</a>
-        <a href="/views/presupuesto.html">Presupuesto</a>
-        <a href="/views/contacto.html">Contacto</a>
+       
     </nav>
 
     <div class="container">
@@ -30,13 +28,46 @@
         </section>
 
        
-
         <section>
             <h2>Los perfumes mas exoticos y buscados del mercado</h2>
             <div class="noticias-container" id="noticias-container">
+
                 <!-- Las noticias se cargarán desde el JSON -->
             </div>
         </section>
+
+        <section class="gallery">
+        <h2>Contamos con exclusiva historia de perfumeria e innovacion</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img
+              src="../img/imagenraro.jpg"
+              alt="Producto 1"
+              onerror="
+                this.src = 'https://via.placeholder.com/300x250?text=Producto+1'
+              "
+            >
+            <div class="gallery-overlay">
+              <h3>Perfumes unicos desde marruecos</h3>
+              <p>Tienen historia y tiempo relatado en su aroma</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="../img/imagenperfume1.jpg"
+              alt="Producto 2"
+              onerror="
+                this.src = 'https://via.placeholder.com/300x250?text=Producto+2'
+              "
+            >
+            <div class="gallery-overlay">
+              <h3>Fragancias desde antaño usadas por a realeza</h3>
+              <p>Perfumes exclusiovs que eran usados en tiempos antiguos por la alta alcurnia</p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
 
         <section>
             <h2>Por qué elegirnos</h2>
@@ -91,7 +122,7 @@
             
     </footer>
 
-<script src="js/main.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/navbar.js"></script>
 </body>
 </html>
