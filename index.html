@@ -8,17 +8,6 @@
     <link rel="stylesheet" href="css/galeria.css">
     <link rel="stylesheet" href="css/navbar.css">
   </head>
-  <script>
-  (function(){
-    var redirect = localStorage.getItem('redirect');
-    if(redirect && redirect !== '/') {
-      localStorage.removeItem('redirect');
-      // Usa tu router para navegar a esa ruta
-      // Ejemplo con React Router:
-      // window.history.replaceState(null, '', redirect);
-    }
-  })();
-</script>
   <body class="index-page">
     <header>
       <h1>La tienda del perfume</h1>
